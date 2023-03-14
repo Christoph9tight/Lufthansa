@@ -17,12 +17,35 @@
 
     <!--Formular erstellen im branch "form" -->
     <div class="form">
-
-    </div>
-    Test test
-
+        <nav class="form-nav">
+          <a href="#">Flüge</a>
+          <a href="#">Mietwagen</a>
+          <a href="#">Hotel</a>
+        </nav>
+        <div class="selectables">
+          <select>
+            <option>Hin- und Rückflug</option>
+            <option>Einfacher Flug</option>
+          </select>
+  
+          <select>
+            <option>Economy, 1 Reisender</option>
+            <option>Business, 1 Reisender</option>
+          </select>
+        </div>
+  
+        <div class="flightDetails">
+          <label for="departure">Von:</label><input type="text" name="departure" placeholder="München"/>
+          <label for="arrival">Nach:</label><input type="text" name="arrival" placeholder="Berlin"/>
+          <label for="date">Abflug-Rückflug:</label><input type="text" name="date" placeholder="15.03.2023 - 22.03.2023"/>
+          <button>Flüge buchen</button>
+        </div>
+      </div>
 
         <!--Footer erstellen im branch "footer" -->
+
+
+        
 
 </body>
 </html>
