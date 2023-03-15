@@ -1,0 +1,91 @@
+* {
+    color: #00235f;;
+}
+/* header styles */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00235f;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header p {
+    color: white;
+    
+}
+
+.header p:hover {
+    font-weight: bold;
+}
+/* Form styles */
+
+.form {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.form-nav {
+    border-bottom: 1px solid black;
+    padding: 15px 15px 15px 5px;
+
+}
+
+.form-nav a {
+    text-decoration: none;
+    padding-right: 20px;
+    font-weight: bolder;
+}
+
+
+.selectables {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 1px solid black;
+    align-items: center;
+    padding: 15px 15px 15px 5px;
+
+}
+
+.flightDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px 15px 5px;
+}
+
+button {
+    color: #00235f;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+
+/* footer styles */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #00235f;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    list-style-type: none;
+    
+}
+
+.footer p {
+    display: inline-block;
+    padding-right: 10px;
+    margin: 50px 0;
+    color: white
+}
